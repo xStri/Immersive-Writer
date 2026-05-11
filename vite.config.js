@@ -5,11 +5,11 @@ import path from "path"
 
 // https://vite.dev/config/
 export default defineConfig({
-	root: 'src',
 	plugins: [
 		svelte(),
 		tailwindcss()
 	],
+	base: '',
 	resolve: {
 		alias: {
 			$lib: path.resolve("./src/lib")
