@@ -1,7 +1,7 @@
 <!-- logic -->
 
 <script>
-	import { setAppScreen } from '/src/App.svelte';
+	import { setAppScreen } from "/App.svelte";
 	import StoryInterface from '$lib/components/StoryViewer.svelte';
 </script>
 
